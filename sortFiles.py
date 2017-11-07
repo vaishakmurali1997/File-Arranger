@@ -28,8 +28,6 @@ def main():
             
             # Fetching extention of the file.
             
-            #grd Edit - no need of extension. Redundant.
-            #extension = os.path.splitext(i)[1]
             folderName = i.split(".")[1]
 
             # Sorting the files in respective folder if it exists.
