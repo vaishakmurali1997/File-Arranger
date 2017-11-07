@@ -27,7 +27,9 @@ def main():
         else:
             
             # Fetching extention of the file.
-            extension = os.path.splitext(i)[1]
+            
+            #grd Edit - no need of extension. Redundant.
+            #extension = os.path.splitext(i)[1]
             folderName = i.split(".")[1]
 
             # Sorting the files in respective folder if it exists.
